@@ -38,6 +38,7 @@ print(ImageHashingHex(image2))
 print(ImageHashingHex(image3))
 
 #%%
+#This is some additional code that calculates the similarity
 
 def ImageHashing(image):
     image_grey = image.convert('L') # convert to gayscale
